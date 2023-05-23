@@ -7,7 +7,7 @@ from numpy import mean, std, median, arange, array
 """
     Simulation Settings
 """
-NUM_USERS = 10000
+NUM_USERS = 20000
 NUM_STVS = 150
 
 
