@@ -10,7 +10,7 @@ import numpy as np
 
 
 def runCalculator(P: int, F: int, N: int, A: int, S: float) -> int:
-    return _v2(P, F, N, A, S)
+    return _v4(P, F, N, A, S)
 
 
 def _v1(P, F, N, A, S):
@@ -26,4 +26,4 @@ def _v3(P, F, N, A, S):
 
 
 def _v4(P, F, N, A, S):
-    return np.round(np.sqrt(F / N), 0) + A + S
+    return 50 * np.round(np.sqrt(min(F, 100000) * N), 0) + 0.5 * P + A + S
