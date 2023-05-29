@@ -10,7 +10,7 @@ import numpy as np
 
 
 def runCalculator(P: int, F: int, N: int, A: int, S: float) -> int:
-    return _v3(P, F, N, A, S)
+    return _v2(P, F, N, A, S)
 
 
 def _v1(P, F, N, A, S):
