@@ -82,10 +82,10 @@ def getPnlPctgSeed(samples: int):
     return _getTruncNormal(PNL_MEAN, PNL_SD, PNL_MIN, PNL_MAX, samples)
 
 
-FUNDS_MEAN = 55
+FUNDS_MEAN = 50
 FUNDS_SD = 25
 FUNDS_MAX = 100
-FUNDS_MIN = 10
+FUNDS_MIN = 0
 
 
 def getFundsPctgSeed(samples: int):

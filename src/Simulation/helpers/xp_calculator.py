@@ -27,3 +27,11 @@ def _v3(P, F, N, A, S):
 
 def _v4(P, F, N, A, S):
     return 50 * np.round(np.sqrt(min(F, 100000) * N), 0) + 0.5 * P + A + S
+
+
+def _v5(P, F, N, A, S):
+    return 50 * np.round(np.sqrt(F)) + 0.5 * P + A + S
+
+
+def _v6(P, F, N, A, S):
+    return 75 * np.round(np.sqrt(F)) + 0.5 * P + A + S
