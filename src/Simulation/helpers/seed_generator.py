@@ -72,10 +72,18 @@ from scipy.stats import truncnorm
     pctg
 """
 
-PNL_MEAN = 0.0025
-PNL_SD = 21.8815
-PNL_MAX = 100
-PNL_MIN = -100
+
+# levered
+# PNL_MEAN = 0
+# PNL_SD = 150
+# PNL_MAX = 2380
+# PNL_MIN = -75
+
+# non-levered
+PNL_MEAN = 0
+PNL_SD = 20
+PNL_MAX = 230
+PNL_MIN = -75
 
 
 def getPnlPctgSeed(samples: int):
